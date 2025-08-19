@@ -1,0 +1,49 @@
+{
+  "name": "refrane-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Refrane business development and Recruite Flow OS website",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:web",
+    "dev:web": "npm run dev --workspace=packages/web",
+    "build": "npm run build --workspace=packages/web",
+    "build:web": "npm run build --workspace=packages/web",
+    "test": "npm run test --workspaces",
+    "test:web": "npm run test --workspace=packages/web",
+    "test:e2e": "playwright test",
+    "lint": "npm run lint --workspaces",
+    "lint:fix": "npm run lint:fix --workspaces",
+    "type-check": "npm run type-check --workspaces",
+    "generate:types": "supabase gen types typescript --project-id $SUPABASE_PROJECT_ID > packages/shared/src/types/database.ts",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:status": "supabase status",
+    "clean": "npm run clean --workspaces",
+    "fresh": "npm run clean && npm install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "supabase": "^1.120.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refrane/website.git"
+  },
+  "author": "Refrane Team",
+  "license": "MIT",
+  "dependencies": {
+    "@nodelib/fs.scandir": "^4.0.1",
+    "@nodelib/fs.walk": "^3.0.1",
+    "fast-glob": "^3.3.3",
+    "is-glob": "^4.0.3"
+  }
+}
