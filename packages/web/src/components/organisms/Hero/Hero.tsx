@@ -236,6 +236,7 @@ function Hero({ className }: HeroProps) {
           </motion.div>
         </motion.div>
       </div>
+      </div>
     </section>
   );
 }
