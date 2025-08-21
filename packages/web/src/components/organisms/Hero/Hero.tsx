@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { ArrowRight, TrendingUp, Users } from 'lucide-react';
 import { Button } from '@/components/atoms/Button';
 import { Badge } from '@/components/atoms/Badge';
-import { ToggleSwitch } from '@/components/molecules/ToggleSwitch';
 import { cn } from '@/utils';
 import { motion } from 'framer-motion';
 
@@ -235,7 +234,6 @@ function Hero({ className }: HeroProps) {
             </div>
           </motion.div>
         </motion.div>
-      </div>
       </div>
     </section>
   );
