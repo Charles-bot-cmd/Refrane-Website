@@ -234,7 +234,7 @@ function Hero({ className }: HeroProps) {
               </motion.div>
             </div>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
