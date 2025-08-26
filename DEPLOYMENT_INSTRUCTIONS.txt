@@ -1,0 +1,73 @@
+REFRANE WEBSITE - DEPLOYMENT INSTRUCTIONS
+==========================================
+
+📁 PROJECT LOCATION: 
+C:\Users\theod\OneDrive\Desktop\Refrane Website V4
+
+🔗 GITHUB REPOSITORY:
+https://github.com/Charles-bot-cmd/Refrane-Website.git
+
+STEP-BY-STEP GIT COMMANDS:
+==========================
+
+1. Open terminal/command prompt in your project folder:
+   cd "C:\Users\theod\OneDrive\Desktop\Refrane Website V4"
+
+2. Initialize git and add all files:
+   git init
+   git add .
+   git commit -m "Initial commit: Complete Refrane website with Next.js 14, TypeScript, and Tailwind CSS"
+
+3. Connect to your GitHub repo and push:
+   git branch -M main
+   git remote add origin https://github.com/Charles-bot-cmd/Refrane-Website.git
+   git push -u origin main
+
+NETLIFY DEPLOYMENT SETTINGS:
+============================
+
+After pushing to GitHub, configure Netlify with these settings:
+
+Build Settings:
+- Build command: npm run build
+- Publish directory: .next
+- Node version: 18 or higher
+
+Environment Variables (if needed):
+- NEXT_PUBLIC_SITE_URL: https://your-domain.netlify.app
+
+FEATURES INCLUDED:
+==================
+
+✅ Next.js 14+ with App Router
+✅ TypeScript & Tailwind CSS  
+✅ Framer Motion animations
+✅ Responsive design (mobile-first)
+✅ SEO optimized with meta tags
+✅ Accessibility compliant (WCAG AA)
+✅ Error boundaries & 404 page
+✅ Loading states & performance optimized
+✅ Glass morphism UI design
+✅ Interactive particles & smooth animations
+✅ Complete component library
+✅ State management with Zustand
+
+TROUBLESHOOTING:
+===============
+
+If git push fails:
+- Make sure you have git installed
+- Check if you're logged into GitHub
+- Use: git config --global user.name "Your Name"
+- Use: git config --global user.email "your.email@example.com"
+
+If Netlify build fails:
+- Check Node version is 18+
+- Verify build command is "npm run build"
+- Check publish directory is ".next"
+
+CONTACT:
+========
+All files are ready for deployment. The website is production-ready with modern features and optimal performance!
+
+🚀 Ready to deploy!
