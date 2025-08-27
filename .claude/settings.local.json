@@ -5,7 +5,8 @@
       "Bash(npx --yes create-next-app@latest refrane-website --ts --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint)",
       "Bash(mkdir:*)",
       "Bash(npm init:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)"
     ],
     "deny": [],
     "ask": []
