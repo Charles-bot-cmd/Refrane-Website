@@ -48,7 +48,6 @@ export function HeroSection() {
 
   return (
     <section className="hero" id="home">
-      <div className="hero-background"></div>
       <div className="particles" id="particles"></div>
       
       <div className="hero-content">
