@@ -11,7 +11,7 @@ export function ServicesSection() {
 
       <div className="services-grid">
         <div className="service-card">
-          <div className="service-icon">🤖</div>
+          <div className="service-icon">⚡</div>
           <h3 className="service-title">Workflow Automation</h3>
           <p className="service-description">
             Automate repetitive tasks and streamline your business processes 
@@ -26,7 +26,7 @@ export function ServicesSection() {
         </div>
 
         <div className="service-card">
-          <div className="service-icon">📊</div>
+          <div className="service-icon">🧠</div>
           <h3 className="service-title">AI Analytics</h3>
           <p className="service-description">
             Gain deep insights from your data with advanced AI-powered 
@@ -41,7 +41,7 @@ export function ServicesSection() {
         </div>
 
         <div className="service-card">
-          <div className="service-icon">🚀</div>
+          <div className="service-icon">💎</div>
           <h3 className="service-title">Growth Acceleration</h3>
           <p className="service-description">
             Scale your business with AI-driven lead generation, personalized 
