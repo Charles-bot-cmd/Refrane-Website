@@ -5,6 +5,7 @@ import { ProcessSection } from '@/components/sections/ProcessSection'
 import { StatsSection } from '@/components/sections/StatsSection'
 import { CTASection } from '@/components/sections/CTASection'
 import { Footer } from '@/components/layout/Footer'
+import { ScrollAnimations } from '@/components/ScrollAnimations'
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <StatsSection />
       <CTASection />
       <Footer />
+      <ScrollAnimations />
     </main>
   )
 }
