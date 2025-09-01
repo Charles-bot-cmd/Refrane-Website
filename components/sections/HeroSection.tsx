@@ -63,16 +63,6 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Floating UI Elements */}
-      <div className="floating-badge floating-badge-1">
-        <div style={{fontWeight: 600, marginBottom: '0.5rem'}}>Workflow Automation</div>
-        <div style={{color: 'var(--gray-light)', fontSize: '0.875rem'}}>500+ Tasks Automated</div>
-      </div>
-      
-      <div className="floating-badge floating-badge-2">
-        <div style={{fontWeight: 600, marginBottom: '0.5rem'}}>AI Analytics</div>
-        <div style={{color: 'var(--gray-light)', fontSize: '0.875rem'}}>Real-time Insights</div>
-      </div>
     </section>
   )
 }
