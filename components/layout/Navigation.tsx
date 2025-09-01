@@ -6,7 +6,7 @@ export function Navigation() {
   useEffect(() => {
     // Nav background on scroll
     const handleScroll = () => {
-      const nav = document.querySelector('nav')
+      const nav = document.querySelector('nav') as HTMLElement
       if (nav) {
         if (window.scrollY > 50) {
           nav.style.background = 'rgba(0, 0, 0, 0.95)'

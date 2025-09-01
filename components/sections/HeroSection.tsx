@@ -25,7 +25,7 @@ export function HeroSection() {
       if (target.getAttribute('href')?.startsWith('#')) {
         e.preventDefault()
         const targetId = target.getAttribute('href')
-        const element = document.querySelector(targetId!)
+        const element = document.querySelector(targetId!) as HTMLElement
         if (element) {
           element.scrollIntoView({
             behavior: 'smooth',
